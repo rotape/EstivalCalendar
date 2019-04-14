@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Agenda Estival de jazz 2019
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -10,6 +10,25 @@
   <div class="ion-padding">
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <table>
+      <ion-row class="ion-align-items-center">
+        <ion-col size="3" class="col_title ion-align-items-center">Acte</ion-col>
+        <ion-col  size="2" class="col_title ion-align-items-center">Dia</ion-col>
+        <ion-col  size="1" class="col_title ion-align-items-center">Hora</ion-col>
+        <ion-col  size="2" class="col_title ion-align-items-center">LLoc</ion-col>
+        <ion-col size="2" class="col_title ion-align-items-center">Preu</ion-col>
+      </ion-row>
+      <ion-row class="acts_row ion-align-items-center" *ngFor="let act of objectKeys(agenda)">
+        <ion-col size="3" class="acts_cell ion-align-items-center ion-text-start" >{{agenda[act].Acte}}</ion-col>
+        <ion-col  size="2" class="acts_cell ion-align-items-center ion-text-start">{{agenda[act].Dia}}</ion-col>
+        <ion-col  size="1" class="acts_cell ion-align-items-center ion-text-start">{{agenda[act].Hora}}</ion-col>
+        <ion-col  size="2" class="acts_cell ion-align-items-center ion-text-start">{{agenda[act].LLoc}}</ion-col>
+        <ion-col  size="2" class="acts_cell ion-align-items-center ion-text-start">{{agenda[act].Preu}}</ion-col>
+      </ion-row>
+    </table>
+    <div >
+      
+    </div>
   </div>
-  
+
 </ion-content>

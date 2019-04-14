@@ -1,1 +1,14 @@
+.col {
+    &_title{
+        font-weight: bold;
+    }
+}
 
+.acts {
+    &_row{
+        border-bottom: 1px solid;
+    }
+    &_cell {
+        padding: 1em;
+    }
+}
