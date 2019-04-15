@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { SingleActComponent } from '../single-act/single-act.component';
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @NgModule({
   imports: [
@@ -15,9 +18,13 @@ import { HomePage } from './home.page';
       {
         path: '',
         component: HomePage
+      },
+      {
+        path: 'act',
+        component: SingleActComponent
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, SingleActComponent, HeaderComponent, FooterComponent]
 })
 export class HomePageModule {}

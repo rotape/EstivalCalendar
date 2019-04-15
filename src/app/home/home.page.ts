@@ -10,7 +10,6 @@ export class HomePage implements OnInit {
   public agenda = [];
   ngOnInit(): void {
     this.agenda = require('../../assets/agenda/agenda.json');
-    console.log(this.agenda);
   }
 
 }
