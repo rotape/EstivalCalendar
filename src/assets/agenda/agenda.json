@@ -1,30 +1,46 @@
 [
     {
-      "Acte": "Cinema a la fresca",
-      "Dia": "Dj 20 Juny",
-      "Hora": "22h",
-      "LLoc": "Pati de l’Ateneu Igualdí",
-      "Preu": "Entrada LLiure"
+      "name": "Cinema a la fresca",
+      "date": "Dj 20 Juny",
+      "time": "22h",
+      "place": "Pati de l’Ateneu Igualdí",
+      "link": "cinema_a_la_fresca",
+      "price": "Entrada LLiure",
+      "description":"Com cada any, cinema a la fresca amb la col·laboració de Cineclub Ateneu. Es triarà una pel·lícula del món del jazz.",
+      "bar":"true",
+      "catering":"false"
     },
     {
-      "Acte": "CARTA BLANCA A ... Ester Quevedo",
-      "Dia": "Dv 21 Juny",
-      "Hora": "22:30h",
-      "LLoc": "Teatre de l’Aurora",
-      "Preu": "10€"
+      "name": "CARTA BLANCA A ... Ester Quevedo",
+      "date": "Dv 21 Juny",
+      "time": "22:30h",
+      "place": "Teatre de l’Aurora",
+      "link": "carta_blanca_ester_quevedo",
+      "price": "10€",
+      "description":"El CARTA BLANCA \u00E9s una producci\u00F3 pr\u00F2pia de l\u2019Estival de Jazz en col\u00B7laboraci\u00F3 amb la discogr\u00E0fica Underpool. Aquest projecte \u00E9s l\u2019origen del festival: una producci\u00F3 pr\u00F2pia que es genera a partir de la invitaci\u00F3 a un m\u00FAsic a crear un concert \u00FAnic per a l\u2019Estival de Jazz, que es registra i del qual se n\u2019edita un disc.\r\n      D\u2019aquest projecte, doncs, se n\u2019edita un disc. Des de la primera edici\u00F3 ja en s\u00F3n cinc:\r\n      \u201CCarta Blanca\u201D de Marc Cuevas (2018) \u201CBroken Line\u201D de Santi de la Rubia (2017) \u201CTerror\u201D de Txema Riera (2016)\r\n      \u201CKraken\u201D de Toni Vaquer (2015) \u201CEpokh\u00E9\u201D de Dani Comas (2014) \u201CPandora\u201D de Ramon Prats (2013)\r\n      Enguany el m\u00FAsic escollit \u00E9s la pianista Ester Quevedo.",
+      "bar":"true",
+      "catering":"false"
     },
     {
-      "Acte": "Jazz a la fresca amb IAGO AGUADO QUARTET",
-      "Dia": "Dv 28 Juny",
-      "Hora": "22:30h",
-      "LLoc": "Pati del Museu de la Pell",
-      "Preu": "8€"
+      "name": "Jazz a la fresca amb IAGO AGUADO QUARTET",
+      "date": "Dv 28 Juny",
+      "time": "22:30h",
+      "place": "Pati del Museu de la Pell",
+      "link": "iago_aguado_quartet",
+      "price": "8€",
+      "description":"Iago Aguado Quartet \u00E9s el resultat d'un proc\u00E9s creatiu introspectiu alimentat per les emocions i els desitjos, del qual ha sortit un projecte musical de car\u00E0cter \u00EDntim en el que la sensibilitat, l'estima i la sinceritat s\u00F3n els trets principals.\r\n      Les composicions originals mostren diferents llen\u00E7os plens de textures, colors i ambients. En ells es dibuixen paisatges sonors en els quals delectar-se a trav\u00E9s d'un di\u00E0leg pausat.\r\n      David Mengual, David Soler i Oriol Roca s\u00F3n els m\u00FAsics idonis que proporcionen la cohesi\u00F3, la complicitat i la comprensi\u00F3, aportant car\u00E0cter \u00EDntim al projecte, gr\u00E0cies a la subtilesa i la musicalitat de cadascun d'ells",
+      "bar":"true",
+      "catering":"false"
     },
     {
-      "Acte": "Vermut a la Bastida amb THE BLACK BARBIES",
-      "Dia": "Dg 30 Juny",
-      "Hora": "12h",
-      "LLoc": "La Bastida del Rec",
-      "Preu": "Entrada lliure"
+      "name": "Vermut a la Bastida amb THE BLACK BARBIES",
+      "date": "Dg 30 Juny",
+      "time": "12h",
+      "place": "La Bastida del Rec",
+      "link": "black_barbies_bastida",
+      "price": "Entrada lliure",
+      "description":"The Black Barbies \u00E9s una de les propostes m\u00E9s originals i innovadores del panorama musical actual. Aquesta banda de Barcelona reuneix m\u00FAsics de diverses proced\u00E8ncies tant estil\u00EDstiques com geogr\u00E0fiques (Espanya, It\u00E0lia, \u00C0frica), motiu pel qual, des de la primera nota creen una sensacional barreja explosiva de sons i sabors d'all\u00F2 m\u00E9s extraordin\u00E0ria.",
+      "bar":"true",
+      "catering":"true"
     }
   ]

@@ -2,25 +2,27 @@
 <ion-content>
   <ion-list *ngFor="let act of objectKeys(agenda)">
       <ion-item>
-        <ion-label>{{agenda[act].Acte}}</ion-label>
+        <a class="link" [routerLink]="[ '/home/act/' + agenda[act].link ]" routerDirection="forward">
+          <ion-label><strong>{{agenda[act].name}}</strong></ion-label>
+        </a>
       </ion-item>
       <ion-item>
         <ion-label>
-          {{agenda[act].Dia}}
+          {{agenda[act].date}}
         </ion-label>
       </ion-item>
       <ion-item>
         <ion-label>
-          {{agenda[act].Hora}}
+          {{agenda[act].time}}
         </ion-label>
       </ion-item>
       <ion-item>
         <ion-icon name="pin" slot="start"></ion-icon>
-        <ion-label>{{agenda[act].LLoc}}</ion-label>
+        <ion-label>{{agenda[act].place}}</ion-label>
       </ion-item>
       <ion-item>
           <ion-icon name="cash" slot="start"></ion-icon>
-          <ion-label>{{agenda[act].Preu}}</ion-label>
+          <ion-label>{{agenda[act].price}}</ion-label>
       </ion-item>
     </ion-list>
 </ion-content>

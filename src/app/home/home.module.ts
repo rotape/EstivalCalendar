@@ -8,6 +8,8 @@ import { HomePage } from './home.page';
 import { SingleActComponent } from '../single-act/single-act.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
+import { ActsService } from '../services/acts.service';
+
 
 @NgModule({
   imports: [
@@ -20,7 +22,7 @@ import { FooterComponent } from '../footer/footer.component';
         component: HomePage
       },
       {
-        path: 'act',
+        path: 'act/:link',
         component: SingleActComponent
       }
     ])

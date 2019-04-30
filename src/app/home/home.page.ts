@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActsService } from '../services/acts.service';
 
 @Component({
   selector: 'app-home',
@@ -8,8 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class HomePage implements OnInit {
   objectKeys = Object.keys;
   public agenda = [];
+  constructor(private actsService: ActsService) {}
   ngOnInit(): void {
-    this.agenda = require('../../assets/agenda/agenda.json');
+   this.actsService.getActs().subscribe((res) => {
+    this.agenda = res;
+      console.log(this.agenda);
+    });
   }
 
 }
