@@ -1,42 +1,41 @@
 <app-header></app-header>
-<ion-card>
-    <ion-card-header>
-      <ion-card-subtitle></ion-card-subtitle>
-      <ion-card-title>{{act.name}}</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      {{act.description}}
-    </ion-card-content>
-  </ion-card>
-  
-  <ion-card>
-    <ion-item>
-      <ion-icon name="pin" slot="start"></ion-icon>
-      <ion-label>{{act.place}}</ion-label>
-      <ion-button fill="outline" slot="end">View</ion-button>
-    </ion-item>
-  
-    <ion-card-content>
-      This is content, without any paragraph or header tags,
-      within an ion-card-content element.
-    </ion-card-content>
-  </ion-card>
-  
-  <ion-card>
-    <ion-item href="#" class="activated">
-      <ion-icon name="cash" slot="start"></ion-icon>
-      <ion-label>{{act.price}}</ion-label>
-    </ion-item>
-  
-    <ion-item *ngIf="act.bar" href="#">
-      <ion-icon name="wine" slot="start"></ion-icon>
-      <ion-label>Servei de begudes</ion-label>
-    </ion-item>
-  
-    <ion-item *ngIf="act.catering" class="activated">
-      <ion-icon name="pizza" slot="start"></ion-icon>
-      <ion-label>Servei de menjars</ion-label>
-    </ion-item>
-    <ion-button class="button--center" [routerLink]="[ '/home']" >Actes</ion-button>
-  </ion-card>
+<div *ngIf="act">
+    <ion-card>
+        <ion-card-header>
+            <ion-card-subtitle></ion-card-subtitle>
+            <ion-card-title>{{act.name}}</ion-card-title>
+        </ion-card-header>
+        <ion-img [src]="'assets/img/'+act.src"></ion-img>
+        <ion-card-content>{{act.description}}</ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-item>
+            <ion-icon name="pin" slot="start"></ion-icon>
+            <ion-label>{{act.place}}</ion-label>
+            <ion-button fill="outline" slot="end">View</ion-button>
+        </ion-item>
+
+        <ion-card-content>
+            {{act.description}}
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-item href="#" class="activated">
+            <ion-icon name="cash" slot="start"></ion-icon>
+            <ion-label>{{act.price}}</ion-label>
+        </ion-item>
+
+        <ion-item *ngIf="act.bar" href="#">
+            <ion-icon name="wine" slot="start"></ion-icon>
+            <ion-label>Servei de begudes</ion-label>
+        </ion-item>
+
+        <ion-item *ngIf="act.catering" class="activated">
+            <ion-icon name="pizza" slot="start"></ion-icon>
+            <ion-label>Servei de menjars</ion-label>
+        </ion-item>
+        <ion-button class="button--center" [routerLink]="[ '/home']">Actes</ion-button>
+    </ion-card>
+</div>

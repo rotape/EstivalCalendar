@@ -1,6 +1,8 @@
 {
   "name": "EstivalCalendar",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "0a69f952"
 }

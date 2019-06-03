@@ -8,7 +8,7 @@ import { ActsService } from '../services/acts.service';
   styleUrls: ['./single-act.component.scss'],
 })
 export class SingleActComponent implements OnInit {
-  public act = [];
+  public act: any;
   public agenda = [];
   constructor(
     private route: ActivatedRoute,
