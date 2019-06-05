@@ -1,5 +1,7 @@
 <app-header></app-header>
-<div *ngIf="act">
+<ion-content  *ngIf="act">
+
+
     <ion-card>
         <ion-card-header>
             <ion-card-subtitle></ion-card-subtitle>
@@ -38,4 +40,5 @@
         </ion-item>
         <ion-button class="button--center" [routerLink]="[ '/home']">Actes</ion-button>
     </ion-card>
-</div>
+
+</ion-content>
