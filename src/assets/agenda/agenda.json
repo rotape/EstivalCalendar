@@ -8,8 +8,20 @@
       "price": "Entrada LLiure",
       "description":"Com cada any, cinema a la fresca amb la col·laboració de Cineclub Ateneu. Es triarà una pel·lícula del món del jazz.",
       "bar":"true",
-      "catering":"false",
+      "catering": "false",
       "src": "cineclub.jpg"
+    },
+    {
+      "name": "Sabina Witt & Manel Fortià",
+      "date": "Dg 16 Juny",
+      "time": "12:00h",
+      "place": "Gal·leria Artèria",
+      "link": "Sabina Witt & Manel Fortià",
+      "price": "Gratuït",
+      "description": "La cantant Sabina Witt i el contrabaixista Manel Fortià s’uneixen en aquest projecte per deleitar a l'espectador amb els dolços timbres dels seus instruments interpretant música honesta i ben seleccionada per la ocasió. Un repertori que barrejarà algunes peces de l’últim projecte de la Sabina anomenat Crisàl.lides, on també participa en Manel, juntament amb alguns estàndards de jazz i un variat de cançons procedents del folklore sud-americà.\n",
+      "bar": "true",
+      "catering": "false",
+      "src": "sabinawittmanelfortia.jpg"
     },
     {
       "name": "CARTA BLANCA A ... Ester Quevedo",
